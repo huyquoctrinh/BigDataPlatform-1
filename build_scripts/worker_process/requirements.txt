@@ -2,3 +2,5 @@ boto3
 opencv-python
 numpy
 pandas
+kafka
+celery
