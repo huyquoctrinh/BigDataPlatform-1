@@ -19,7 +19,7 @@ class AudioMetadata:
         return {
             'audio_id': self.audio_id,
             'filename': self.filename,
-            'save_url': self.save_url
+            'save_url': self.save_url,
             'db_rate': self.db_rate,
             'status': self.status,
             'device': self.device,

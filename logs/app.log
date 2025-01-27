@@ -1,0 +1,27 @@
+2025-01-27 23:26:46,711 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:26:46,711 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-27 23:26:47,897 werkzeug INFO  * Detected change in '/app/server.py', reloading
+2025-01-27 23:26:48,257 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:26:48,258 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-27 23:26:49,494 werkzeug INFO  * Detected change in '/app/server.py', reloading
+2025-01-27 23:26:49,947 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:26:49,948 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-27 23:26:55,420 werkzeug INFO  * Detected change in '/app/server.py', reloading
+2025-01-27 23:26:55,761 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:26:55,762 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-27 23:27:05,463 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-27 23:27:05,809 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:27:05,810 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-27 23:27:08,058 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-27 23:27:08,671 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:27:08,673 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-27 23:27:35,665 root INFO Task ID: b44d9474-b079-49a6-81b3-1efe0fd665b4
+2025-01-27 23:27:35,666 werkzeug INFO 172.26.0.1 - - [27/Jan/2025 23:27:35] "POST /upload HTTP/1.1" 200 -
+2025-01-27 23:28:03,168 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-27 23:28:03,479 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:28:03,480 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-27 23:28:04,651 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-27 23:28:05,038 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:28:05,038 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-27 23:28:58,983 root INFO Task ID: 336c3292-e2a8-4035-a43a-f9e79d53cd9c
+2025-01-27 23:28:58,984 werkzeug INFO 172.26.0.1 - - [27/Jan/2025 23:28:58] "POST /upload HTTP/1.1" 200 -

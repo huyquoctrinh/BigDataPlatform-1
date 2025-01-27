@@ -1,5 +1,4 @@
-from modules.data_models import audio_schema
-from flask import request
+from data_models import audio_schema
 
 def extract_metadata_from_request(request):
     audio_id = request.form.get('audio_id')

@@ -1,6 +1,21 @@
 version: '3.8'
 
 services:
+  redis:
+    image: redis:latest
+    container_name: redis
+    networks:
+      - gateway
+    ports:
+      - "6379:6379"
+    volumes:
+      - ~/redis/data:/data
+    restart: always
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 1s
+      timeout: 2s
+      retries: 10
   minio:
     image: minio/minio:latest
     container_name: minio
@@ -27,15 +42,39 @@ services:
     
   app:
     build:
-      context: ./build_scripts/worker_process
+      context: ./build_scripts/app_build
       dockerfile: Dockerfile
     container_name: app
     ports:
       - "5000:5000"
     volumes:
-      - ./modules:/app
-    command: python3 modules/worker_process.py
-
+      - ./src:/app
+      - ./logs:/app/logs
+      - ./tmp_data:/app/tmp_data
+    depends_on:
+      redis:
+        condition: service_healthy
+    command: python3 /app/server.py
+    environment:
+      CELERY_BROKER_URL: redis://redis
+      CELERY_RESULT_BACKEND: redis://redis
+    networks:
+      - gateway
+  worker:
+    build:
+      context: ./build_scripts/worker_process
+      dockerfile: Dockerfile
+    command: celery -A tasks worker -l info -E
+    environment:
+      CELERY_BROKER_URL: redis://redis
+      CELERY_RESULT_BACKEND: redis://redis
+    depends_on:
+      - redis
+    networks:
+      - gateway
+    volumes: 
+      - ./src:/app
+      - ./worker_logs:/app/worker_logs
 #   zookeeper:
 #     image: 'bitnami/zookeeper:3'
 #     ports:
@@ -62,3 +101,7 @@ services:
 #     driver: local
 #   kafka_data:
 #     driver: local
+
+networks:
+  gateway:
+    driver: bridge

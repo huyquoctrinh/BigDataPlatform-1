@@ -1,6 +1,8 @@
+redis
+celery
+flower
+watchdog
 boto3
 opencv-python
 numpy
 pandas
-kafka
-celery

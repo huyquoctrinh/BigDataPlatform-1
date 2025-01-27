@@ -1,0 +1,40 @@
+2025-01-27 23:27:30,662 celery.utils.functional DEBUG 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-01-27 23:27:30,664 celery.utils.functional DEBUG 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-01-27 23:27:30,665 celery.utils.functional DEBUG 
+def chunks(task, it, n):
+    return 1
+
+2025-01-27 23:27:30,666 celery.utils.functional DEBUG 
+def backend_cleanup():
+    return 1
+
+2025-01-27 23:27:30,667 celery.utils.functional DEBUG 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-01-27 23:27:30,670 celery.utils.functional DEBUG 
+def update_metadata_task(results_dict):
+    return 1
+
+2025-01-27 23:27:30,671 celery.utils.functional DEBUG 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-01-27 23:27:30,671 celery.utils.functional DEBUG 
+def xmap(task, it):
+    return 1
+
+2025-01-27 23:27:30,672 celery.utils.functional DEBUG 
+def chain(*args, **kwargs):
+    return 1
+
+2025-01-27 23:27:30,675 celery.utils.functional DEBUG 
+def xstarmap(task, it):
+    return 1
+
