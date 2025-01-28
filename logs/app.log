@@ -25,3 +25,176 @@
 2025-01-27 23:28:05,038 werkzeug INFO  * Debugger PIN: 118-928-123
 2025-01-27 23:28:58,983 root INFO Task ID: 336c3292-e2a8-4035-a43a-f9e79d53cd9c
 2025-01-27 23:28:58,984 werkzeug INFO 172.26.0.1 - - [27/Jan/2025 23:28:58] "POST /upload HTTP/1.1" 200 -
+2025-01-27 23:33:54,921 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-27 23:33:55,305 werkzeug WARNING  * Debugger is active!
+2025-01-27 23:33:55,307 werkzeug INFO  * Debugger PIN: 118-928-123
+2025-01-28 21:09:59,630 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.26.0.4:5000
+2025-01-28 21:09:59,632 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-01-28 21:09:59,634 werkzeug INFO  * Restarting with stat
+2025-01-28 21:10:00,091 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:10:00,093 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:10:09,465 werkzeug INFO  * Detected change in '/app/worker.py', reloading
+2025-01-28 21:10:09,512 werkzeug INFO  * Restarting with stat
+2025-01-28 21:10:09,954 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:10:09,999 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:10:17,006 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:10:17,058 werkzeug INFO  * Restarting with stat
+2025-01-28 21:10:17,459 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:10:17,460 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:10:23,539 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:10:23,575 werkzeug INFO  * Restarting with stat
+2025-01-28 21:10:24,044 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:10:24,110 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:10:27,831 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:10:27,876 werkzeug INFO  * Restarting with stat
+2025-01-28 21:10:28,342 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:10:28,399 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:10:29,816 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:10:29,860 werkzeug INFO  * Restarting with stat
+2025-01-28 21:10:30,343 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:10:30,344 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:10:32,859 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:10:32,897 werkzeug INFO  * Restarting with stat
+2025-01-28 21:10:33,336 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:10:33,338 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:03,121 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:03,167 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:03,551 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:03,552 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:04,976 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:05,014 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:05,488 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:05,490 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:10,488 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:10,524 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:10,952 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:10,953 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:19,291 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:19,323 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:19,724 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:19,726 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:22,252 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:22,286 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:22,730 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:22,731 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:25,272 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:25,320 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:25,794 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:25,796 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:32,736 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:32,776 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:33,243 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:33,244 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:35,809 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:35,849 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:36,315 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:36,316 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:11:37,634 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:11:37,680 werkzeug INFO  * Restarting with stat
+2025-01-28 21:11:38,100 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:11:38,101 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:12:51,630 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:12:51,676 werkzeug INFO  * Restarting with stat
+2025-01-28 21:12:52,095 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:12:52,096 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:12:53,432 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:12:53,536 werkzeug INFO  * Restarting with stat
+2025-01-28 21:12:54,138 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:12:54,140 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:13:37,270 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:13:37,308 werkzeug INFO  * Restarting with stat
+2025-01-28 21:13:37,765 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:13:37,766 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:13:39,224 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:13:39,284 werkzeug INFO  * Restarting with stat
+2025-01-28 21:13:39,731 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:13:39,749 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:13:46,613 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:13:46,650 werkzeug INFO  * Restarting with stat
+2025-01-28 21:13:47,131 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:13:47,133 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:21:45,038 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:21:45,081 werkzeug INFO  * Restarting with stat
+2025-01-28 21:21:45,410 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:21:45,411 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:21:46,548 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:21:46,580 werkzeug INFO  * Restarting with stat
+2025-01-28 21:21:46,829 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:21:46,829 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:22:17,364 werkzeug INFO  * Detected change in '/app/server.py', reloading
+2025-01-28 21:22:17,394 werkzeug INFO  * Restarting with stat
+2025-01-28 21:22:17,714 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:22:17,715 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:22:20,004 werkzeug INFO  * Detected change in '/app/server.py', reloading
+2025-01-28 21:22:20,034 werkzeug INFO  * Restarting with stat
+2025-01-28 21:22:20,367 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:22:20,368 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:22:31,330 werkzeug INFO  * Detected change in '/app/server.py', reloading
+2025-01-28 21:22:31,361 werkzeug INFO  * Restarting with stat
+2025-01-28 21:22:31,708 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:22:31,709 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:22:32,874 werkzeug INFO  * Detected change in '/app/server.py', reloading
+2025-01-28 21:22:32,906 werkzeug INFO  * Restarting with stat
+2025-01-28 21:22:33,291 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:22:33,292 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:22:40,003 werkzeug INFO  * Detected change in '/app/server.py', reloading
+2025-01-28 21:22:40,046 werkzeug INFO  * Restarting with stat
+2025-01-28 21:22:40,503 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:22:40,504 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:23:07,698 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:23:07,746 werkzeug INFO  * Restarting with stat
+2025-01-28 21:23:08,148 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:23:08,149 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:23:55,767 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:23:55,882 werkzeug INFO  * Restarting with stat
+2025-01-28 21:23:56,135 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:23:56,136 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:24:02,762 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:24:02,793 werkzeug INFO  * Restarting with stat
+2025-01-28 21:24:03,129 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:24:03,130 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:24:08,596 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:24:08,643 werkzeug INFO  * Restarting with stat
+2025-01-28 21:24:08,978 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:24:08,979 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:24:15,576 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:24:15,617 werkzeug INFO  * Restarting with stat
+2025-01-28 21:24:15,989 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:24:15,990 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:14,196 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:14,229 werkzeug INFO  * Restarting with stat
+2025-01-28 21:25:14,579 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:25:14,619 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:24,300 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:24,390 werkzeug INFO  * Restarting with stat
+2025-01-28 21:25:24,712 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:25:24,713 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:27,983 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:28,016 werkzeug INFO  * Restarting with stat
+2025-01-28 21:25:28,344 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:25:28,345 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:31,692 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:31,721 werkzeug INFO  * Restarting with stat
+2025-01-28 21:25:32,087 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:25:32,088 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:34,407 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:34,444 werkzeug INFO  * Restarting with stat
+2025-01-28 21:25:34,799 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:25:34,799 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:37,028 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:37,061 werkzeug INFO  * Restarting with stat
+2025-01-28 21:25:37,416 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:25:37,417 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:38,626 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:38,661 werkzeug INFO  * Restarting with stat
+2025-01-28 21:25:39,012 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:25:39,013 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:41,379 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:41,411 werkzeug INFO  * Restarting with stat
+2025-01-28 21:25:41,751 werkzeug WARNING  * Debugger is active!
+2025-01-28 21:25:41,751 werkzeug INFO  * Debugger PIN: 807-284-319
+2025-01-28 21:25:42,921 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-01-28 21:25:42,950 werkzeug INFO  * Restarting with stat

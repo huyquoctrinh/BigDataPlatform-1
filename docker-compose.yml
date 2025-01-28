@@ -28,6 +28,8 @@ services:
     volumes:
       - ~/minio/data:/data
     command: server /data --console-address ":9001"
+    networks:
+      - gateway
   
   mongodb:
     image: mongo:latest
