@@ -6,4 +6,5 @@ boto3
 opencv-python
 numpy
 pandas
+pymongo
 python-dotenv

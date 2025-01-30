@@ -13,8 +13,7 @@ class AudioMetadata:
         self.status = status
         self.device = device
         self.db_rate = db_rate
-        if save_url==None:
-            self.save_url = ""
+        self.save_url = save_url if save_url else ""
     def to_dict(self):
         return {
             'audio_id': self.audio_id,
