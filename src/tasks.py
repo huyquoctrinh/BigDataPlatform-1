@@ -1,17 +1,15 @@
 import os
 from celery import Celery
-from workers.update_metadata import update_metadata
+# from workers.update_metadata import update_metadata
+# from workers.upload_file import upload_file_to_minio
 import logging
 from boto3 import client
 import dotenv
+import ast 
 
 dotenv.load_dotenv()
 
-logging.basicConfig(filename="./worker_logs/worker.log",
-                    filemode='a',
-                    format='%(asctime)s,%(msecs)03d %(name)s %(levelname)s %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S',
-                    level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 CELERY_BROKER_URL = os.environ.get('CELERY_BROKER_URL', 'redis://localhost:6379')
 CELERY_RESULT_BACKEND = os.environ.get('CELERY_RESULT_BACKEND', 'redis://localhost:6379')
@@ -24,8 +22,8 @@ def update_metadata_task(results_dict):
     return 1
 
 @celery.task(name='tasks.upload_file_to_minio')
-def upload_file_to_minio(
-    key, bucket_name
+def upload_file_to_minio_task(
+    key: str
 ):
     s3_client = client(
         "s3",
@@ -34,12 +32,14 @@ def upload_file_to_minio(
         aws_secret_access_key=os.environ.get("MINIO_SECRET_KEY"),
         use_ssl=False,
     )
-    try:
-        s3_client.upload_file(
-            key,
-            bucket_name,
-            key
-        )
-        return True
-    except Exception as e:
-        return False
+    # try:
+    logger.info(key)
+    basename = key.split("/")[-1]
+    s3_client.upload_file(
+        key,
+        "mimic-data",
+        basename
+    )
+    return True
+    # except Exception as e:
+        # return False

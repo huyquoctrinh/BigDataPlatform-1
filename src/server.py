@@ -19,11 +19,19 @@ app = Flask(__name__)
 def upload_file():
     results = extract_metadata_from_request(request)
     results_dict = results.to_dict()
-    results_dict["file_tmp"] = "tmp/" + request.files["audio_file"].filename
-    results = celery.send_task("tasks.update_metadata", args=[results_dict])
-    upload_results = celery.send_task("tasks.upload_file_to_minio", args=[results_dict["file_tmp"], "mimic-data"])
+    results_dict["file_tmp"] = "/tmp/" + request.files["audio_file"].filename
+    request.files["audio_file"].save(results_dict["file_tmp"])
+    metadata_update_results = celery.send_task(
+        "tasks.update_metadata", 
+        args=[results_dict]
+    )
+    upload_results = celery.send_task(
+        "tasks.upload_file_to_minio", 
+        args=[results_dict["file_tmp"]],
+        kwargs={}
+    )
     logging.info(f"Task ID: {results.id}")
-    return jsonify({"status": "success"})
+    return jsonify({"status": "success", "task_id": results.id})
 
 @app.route('/check/<string:task_id>')
 def check_task(task_id: str) -> str:

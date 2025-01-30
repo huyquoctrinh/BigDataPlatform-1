@@ -2,9 +2,10 @@ import pymongo
 
 myclient = pymongo.MongoClient("mongodb://admin:admin123@localhost:27017/")
 dblist = myclient.list_database_names()
-print(dblist)
+# print(dblist)
+# myclient.create_database("mimic-data")
 
-# mydb = myclient["mydatabase"]
+mydb = myclient["mimic-data"]
 
 # users_collections = mydb["users"]
 # print(mydb.list_collection_names())

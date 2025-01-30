@@ -53,6 +53,7 @@ services:
       - ./src:/app
       - ./logs:/app/logs
       - ./tmp_data:/app/tmp_data
+      - shared-volumes:/tmp/
     depends_on:
       redis:
         condition: service_healthy
@@ -66,7 +67,7 @@ services:
     build:
       context: ./build_scripts/worker_process
       dockerfile: Dockerfile
-    command: celery -A tasks worker -l info -E
+    command: celery -A tasks worker --loglevel=DEBUG -E
     environment:
       CELERY_BROKER_URL: redis://redis
       CELERY_RESULT_BACKEND: redis://redis
@@ -77,6 +78,7 @@ services:
     volumes: 
       - ./src:/app
       - ./worker_logs:/app/worker_logs
+      - shared-volumes:/tmp/
 #   zookeeper:
 #     image: 'bitnami/zookeeper:3'
 #     ports:
@@ -107,3 +109,7 @@ services:
 networks:
   gateway:
     driver: bridge
+
+volumes:
+  shared-volumes:
+    driver: local
