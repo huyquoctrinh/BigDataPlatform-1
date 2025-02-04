@@ -8,3 +8,5 @@ numpy
 pandas
 pymongo
 python-dotenv
+kafka-python==2.0.2
+flake8==3.9.0

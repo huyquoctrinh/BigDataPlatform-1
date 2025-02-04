@@ -1613,3 +1613,957 @@
 2025-02-03 20:05:31,650 werkzeug INFO  * Restarting with stat
 2025-02-03 20:05:32,014 werkzeug WARNING  * Debugger is active!
 2025-02-03 20:05:32,015 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 00:42:31,392 werkzeug INFO 198.235.24.127 - - [04/Feb/2025 00:42:31] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-04 00:59:12,692 werkzeug ERROR 206.168.34.220 - - [04/Feb/2025 00:59:12] code 400, message Bad request version ('À\x14À')
+2025-02-04 00:59:12,693 werkzeug INFO 206.168.34.220 - - [04/Feb/2025 00:59:12] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x071\x95b\x1a\x8cóHqt\x18³?/¬hÄøxõ¸a1Jµgy=\x95m\x92± 'ì\x80H<mùÊ\x9cöJÈ\x80)exQ;\x9a²º\x0eKøÏ\x11ÊiqFñ\x94\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2025-02-04 00:59:17,935 werkzeug INFO 206.168.34.220 - - [04/Feb/2025 00:59:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-04 00:59:23,556 werkzeug INFO 206.168.34.220 - - [04/Feb/2025 00:59:23] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-04 00:59:24,638 werkzeug ERROR 206.168.34.220 - - [04/Feb/2025 00:59:24] code 505, message Invalid HTTP version (2.0)
+2025-02-04 00:59:24,638 werkzeug INFO 206.168.34.220 - - [04/Feb/2025 00:59:24] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2025-02-04 02:47:03,549 werkzeug INFO 205.210.31.217 - - [04/Feb/2025 02:47:03] "[33mGET / HTTP/1.0[0m" 404 -
+2025-02-04 03:17:31,716 werkzeug ERROR 147.185.133.95 - - [04/Feb/2025 03:17:31] code 400, message Bad request version ('À\x13À')
+2025-02-04 03:17:31,716 werkzeug INFO 147.185.133.95 - - [04/Feb/2025 03:17:31] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¶ÍJ\x81OÃ\x1fø\x06m6ßá\x1dë98ZÏ)\x18=*îÙ\x94Õ(\x07¶lã m?Ò\x04\x89«þðgl1µY\x94Ï]\x8f®èB£]ºÅ\x90\x87\x87óÇÿ9ä\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+2025-02-04 03:17:31,978 werkzeug ERROR 147.185.133.95 - - [04/Feb/2025 03:17:31] code 400, message Bad request version ('À(À$À\x14À')
+2025-02-04 03:17:31,978 werkzeug INFO 147.185.133.95 - - [04/Feb/2025 03:17:31] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03êqEÜ^>O\x16(ôaY\x97\x19AÖYõÅu'aGVL\x82n \x82¯T2\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2025-02-04 05:43:38,498 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 05:43:38,602 werkzeug INFO  * Restarting with stat
+2025-02-04 05:43:39,042 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:43:39,044 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:43:47,079 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 05:43:47,136 werkzeug INFO  * Restarting with stat
+2025-02-04 05:43:47,443 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:43:47,443 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:45:08,702 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 05:45:08,754 werkzeug INFO  * Restarting with stat
+2025-02-04 05:45:09,045 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:45:09,046 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:45:10,058 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 05:45:10,106 werkzeug INFO  * Restarting with stat
+2025-02-04 05:45:10,393 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:45:10,394 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:50:37,411 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 05:50:37,466 werkzeug INFO  * Restarting with stat
+2025-02-04 05:50:37,763 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:50:37,764 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:50:42,787 werkzeug INFO  * Detected change in '/app/producer/kafka_consumer.py', reloading
+2025-02-04 05:50:42,842 werkzeug INFO  * Restarting with stat
+2025-02-04 05:50:43,131 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:50:43,132 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:50:58,188 werkzeug INFO  * Detected change in '/app/producer/kafka_consumer.py', reloading
+2025-02-04 05:50:58,237 werkzeug INFO  * Restarting with stat
+2025-02-04 05:50:58,528 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:50:58,529 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:51:10,575 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 05:51:10,622 werkzeug INFO  * Restarting with stat
+2025-02-04 05:51:10,928 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:51:10,929 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:52:29,182 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 05:52:29,232 werkzeug INFO  * Restarting with stat
+2025-02-04 05:52:29,521 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:52:29,522 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:56:31,292 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 05:56:31,348 werkzeug INFO  * Restarting with stat
+2025-02-04 05:56:31,637 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:56:31,637 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:56:38,667 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 05:56:38,723 werkzeug INFO  * Restarting with stat
+2025-02-04 05:56:39,013 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:56:39,014 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:56:46,044 werkzeug INFO  * Detected change in '/app/producer/kafka_consumer.py', reloading
+2025-02-04 05:56:46,102 werkzeug INFO  * Restarting with stat
+2025-02-04 05:56:46,390 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:56:46,391 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 05:56:49,408 werkzeug INFO  * Detected change in '/app/producer/kafka_consumer.py', reloading
+2025-02-04 05:56:49,464 werkzeug INFO  * Restarting with stat
+2025-02-04 05:56:49,765 werkzeug WARNING  * Debugger is active!
+2025-02-04 05:56:49,766 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 06:06:12,535 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 06:06:12,593 werkzeug INFO  * Restarting with stat
+2025-02-04 06:06:12,882 werkzeug WARNING  * Debugger is active!
+2025-02-04 06:06:12,883 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 06:06:51,010 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 06:06:51,062 werkzeug INFO  * Restarting with stat
+2025-02-04 06:06:51,370 werkzeug WARNING  * Debugger is active!
+2025-02-04 06:06:51,371 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 06:06:55,392 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 06:06:55,442 werkzeug INFO  * Restarting with stat
+2025-02-04 06:06:55,732 werkzeug WARNING  * Debugger is active!
+2025-02-04 06:06:55,732 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 06:07:06,776 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 06:07:06,833 werkzeug INFO  * Restarting with stat
+2025-02-04 06:07:07,145 werkzeug WARNING  * Debugger is active!
+2025-02-04 06:07:07,145 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 06:07:08,157 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 06:07:08,211 werkzeug INFO  * Restarting with stat
+2025-02-04 06:07:08,504 werkzeug WARNING  * Debugger is active!
+2025-02-04 06:07:08,505 werkzeug INFO  * Debugger PIN: 112-112-467
+2025-02-04 06:11:17,527 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.8:5000
+2025-02-04 06:11:17,529 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 06:11:17,536 werkzeug INFO  * Restarting with stat
+2025-02-04 06:11:19,587 werkzeug WARNING  * Debugger is active!
+2025-02-04 06:11:19,591 werkzeug INFO  * Debugger PIN: 136-484-976
+2025-02-04 06:33:32,700 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+2025-02-04 06:33:32,707 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 06:33:32,708 werkzeug INFO  * Restarting with stat
+2025-02-04 06:33:33,468 werkzeug WARNING  * Debugger is active!
+2025-02-04 06:33:33,470 werkzeug INFO  * Debugger PIN: 999-924-807
+2025-02-04 06:56:55,176 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+2025-02-04 06:56:55,177 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 06:56:55,179 werkzeug INFO  * Restarting with stat
+2025-02-04 06:56:55,910 werkzeug WARNING  * Debugger is active!
+2025-02-04 06:56:55,911 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:28:38,699 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:28:38,757 werkzeug INFO  * Restarting with stat
+2025-02-04 07:28:39,056 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:28:39,057 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:28:56,118 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:28:56,171 werkzeug INFO  * Restarting with stat
+2025-02-04 07:28:56,478 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:28:56,479 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:29:02,506 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:29:02,557 werkzeug INFO  * Restarting with stat
+2025-02-04 07:29:02,878 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:29:02,879 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:29:03,891 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:29:03,947 werkzeug INFO  * Restarting with stat
+2025-02-04 07:29:04,242 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:29:04,242 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:29:24,312 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:29:24,363 werkzeug INFO  * Restarting with stat
+2025-02-04 07:29:24,663 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:29:24,664 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:29:27,681 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:29:27,728 werkzeug INFO  * Restarting with stat
+2025-02-04 07:29:28,022 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:29:28,023 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:53:01,364 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:53:01,420 werkzeug INFO  * Restarting with stat
+2025-02-04 07:53:01,715 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:53:01,715 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:57:09,488 werkzeug INFO  * Detected change in '/app/workers/db_handler.py', reloading
+2025-02-04 07:57:09,555 werkzeug INFO  * Restarting with stat
+2025-02-04 07:57:09,853 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:57:09,854 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:57:25,914 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:57:25,966 werkzeug INFO  * Restarting with stat
+2025-02-04 07:57:26,263 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:57:26,264 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:57:28,278 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:57:28,330 werkzeug INFO  * Restarting with stat
+2025-02-04 07:57:28,636 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:57:28,637 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:57:30,651 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:57:30,711 werkzeug INFO  * Restarting with stat
+2025-02-04 07:57:31,010 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:57:31,010 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:57:40,047 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 07:57:40,096 werkzeug INFO  * Restarting with stat
+2025-02-04 07:57:40,402 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:57:40,403 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:57:58,468 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:57:58,521 werkzeug INFO  * Restarting with stat
+2025-02-04 07:57:58,812 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:57:58,812 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:58:14,867 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:58:14,918 werkzeug INFO  * Restarting with stat
+2025-02-04 07:58:15,232 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:58:15,233 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:58:19,255 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:58:19,320 werkzeug INFO  * Restarting with stat
+2025-02-04 07:58:19,611 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:58:19,612 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:58:25,639 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:58:25,690 werkzeug INFO  * Restarting with stat
+2025-02-04 07:58:25,982 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:58:25,983 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:58:52,071 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:58:52,121 werkzeug INFO  * Restarting with stat
+2025-02-04 07:58:52,417 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:58:52,418 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:58:58,444 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:58:58,499 werkzeug INFO  * Restarting with stat
+2025-02-04 07:58:58,792 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:58:58,793 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:59:03,817 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:59:03,877 werkzeug INFO  * Restarting with stat
+2025-02-04 07:59:04,183 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:59:04,184 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:59:10,212 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:59:10,267 werkzeug INFO  * Restarting with stat
+2025-02-04 07:59:10,557 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:59:10,558 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:59:25,609 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:59:25,661 werkzeug INFO  * Restarting with stat
+2025-02-04 07:59:25,979 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:59:25,980 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:59:28,998 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:59:29,061 werkzeug INFO  * Restarting with stat
+2025-02-04 07:59:29,354 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:59:29,355 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:59:33,375 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:59:33,422 werkzeug INFO  * Restarting with stat
+2025-02-04 07:59:33,726 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:59:33,727 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:59:34,739 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:59:34,786 werkzeug INFO  * Restarting with stat
+2025-02-04 07:59:35,075 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:59:35,076 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 07:59:45,114 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 07:59:45,165 werkzeug INFO  * Restarting with stat
+2025-02-04 07:59:45,459 werkzeug WARNING  * Debugger is active!
+2025-02-04 07:59:45,459 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:00:00,513 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 08:00:00,577 werkzeug INFO  * Restarting with stat
+2025-02-04 08:00:00,898 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:00:00,899 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:00:10,938 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 08:00:10,989 werkzeug INFO  * Restarting with stat
+2025-02-04 08:00:11,295 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:00:11,296 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:00:12,308 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 08:00:12,365 werkzeug INFO  * Restarting with stat
+2025-02-04 08:00:12,661 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:00:12,662 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:00:33,740 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 08:00:33,802 werkzeug INFO  * Restarting with stat
+2025-02-04 08:00:34,107 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:00:34,108 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:00:42,140 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 08:00:42,190 werkzeug INFO  * Restarting with stat
+2025-02-04 08:00:42,476 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:00:42,477 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:00:44,491 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 08:00:44,545 werkzeug INFO  * Restarting with stat
+2025-02-04 08:00:44,841 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:00:44,842 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:02:04,095 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 08:02:04,156 werkzeug INFO  * Restarting with stat
+2025-02-04 08:02:04,470 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:02:04,471 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:02:45,608 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 08:02:45,661 werkzeug INFO  * Restarting with stat
+2025-02-04 08:02:45,959 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:02:45,960 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:03:01,015 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 08:03:01,068 werkzeug INFO  * Restarting with stat
+2025-02-04 08:03:01,381 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:03:01,382 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:03:07,411 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 08:03:07,461 werkzeug INFO  * Restarting with stat
+2025-02-04 08:03:07,763 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:03:07,764 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:03:11,786 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 08:03:11,838 werkzeug INFO  * Restarting with stat
+2025-02-04 08:03:12,142 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:03:12,143 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:03:20,175 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 08:03:20,228 werkzeug INFO  * Restarting with stat
+2025-02-04 08:03:20,534 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:03:20,535 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:03:22,549 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 08:03:22,598 werkzeug INFO  * Restarting with stat
+2025-02-04 08:03:22,898 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:03:22,898 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:03:31,936 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:03:31,996 werkzeug INFO  * Restarting with stat
+2025-02-04 08:03:32,288 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:03:32,289 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:03:47,345 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:03:47,400 werkzeug INFO  * Restarting with stat
+2025-02-04 08:03:47,696 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:03:47,696 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:33:21,172 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:33:21,221 werkzeug INFO  * Restarting with stat
+2025-02-04 08:33:21,516 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:33:21,517 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:33:30,552 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:33:30,601 werkzeug INFO  * Restarting with stat
+2025-02-04 08:33:30,900 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:33:30,901 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:33:37,931 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:33:37,984 werkzeug INFO  * Restarting with stat
+2025-02-04 08:33:38,279 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:33:38,280 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:34:02,363 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 08:34:02,418 werkzeug INFO  * Restarting with stat
+2025-02-04 08:34:02,715 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:34:02,715 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:34:18,774 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:34:18,824 werkzeug INFO  * Restarting with stat
+2025-02-04 08:34:19,127 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:34:19,128 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:34:37,195 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:34:37,250 werkzeug INFO  * Restarting with stat
+2025-02-04 08:34:37,545 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:34:37,545 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:34:42,569 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:34:42,623 werkzeug INFO  * Restarting with stat
+2025-02-04 08:34:42,919 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:34:42,920 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:34:49,950 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:34:50,005 werkzeug INFO  * Restarting with stat
+2025-02-04 08:34:50,313 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:34:50,313 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:34:54,335 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:34:54,389 werkzeug INFO  * Restarting with stat
+2025-02-04 08:34:54,686 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:34:54,687 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:02,719 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:02,783 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:03,081 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:03,081 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:09,108 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:09,159 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:09,445 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:09,446 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:13,466 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:13,521 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:13,809 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:13,809 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:21,842 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:21,899 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:22,191 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:22,192 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:23,203 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:23,255 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:23,570 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:23,571 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:32,608 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:32,656 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:32,955 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:32,956 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:36,977 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:37,030 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:37,349 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:37,349 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:38,361 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:38,417 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:38,715 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:38,716 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:47,755 werkzeug INFO  * Detected change in '/app/workers/update_metadata.py', reloading
+2025-02-04 08:35:47,811 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:48,120 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:48,120 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:54,147 werkzeug INFO  * Detected change in '/app/workers/update_metadata.py', reloading
+2025-02-04 08:35:54,215 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:54,517 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:54,518 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:35:59,540 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:35:59,593 werkzeug INFO  * Restarting with stat
+2025-02-04 08:35:59,881 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:35:59,881 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:36:25,970 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:36:26,025 werkzeug INFO  * Restarting with stat
+2025-02-04 08:36:26,324 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:36:26,325 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:36:30,345 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:36:30,396 werkzeug INFO  * Restarting with stat
+2025-02-04 08:36:30,691 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:36:30,692 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 08:36:46,748 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 08:36:46,802 werkzeug INFO  * Restarting with stat
+2025-02-04 08:36:47,110 werkzeug WARNING  * Debugger is active!
+2025-02-04 08:36:47,110 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 09:00:48,349 werkzeug INFO 45.156.129.54 - - [04/Feb/2025 09:00:48] "[33mGET /api/session/properties HTTP/1.1[0m" 404 -
+2025-02-04 09:49:21,137 werkzeug ERROR 51.91.174.246 - - [04/Feb/2025 09:49:21] code 400, message Bad request version ('À#À¬À®À+À')
+2025-02-04 09:49:21,137 werkzeug INFO 51.91.174.246 - - [04/Feb/2025 09:49:21] "[35m[1m\x16\x03\x03\x01¥\x01\x00\x01¡\x03\x03\x0ba!\x0fgÐ¯\x83\x11®T\x05O \x81Ö1)ÐÒ¹ø1Ø`ä:\x9e¹¤»\x81 *\x82à¼þ\x9f$þÓØ\x1c#\x1a\x83ßº¢C)\x13üäë&b32\x12Á4;/\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" HTTPStatus.BAD_REQUEST -
+2025-02-04 09:49:24,420 werkzeug INFO 51.91.174.249 - - [04/Feb/2025 09:49:24] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-04 09:55:09,240 werkzeug ERROR 54.38.100.148 - - [04/Feb/2025 09:55:09] code 400, message Bad request version ('À#À¬À®À+À')
+2025-02-04 09:55:09,240 werkzeug INFO 54.38.100.148 - - [04/Feb/2025 09:55:09] "[35m[1m\x16\x03\x03\x01¥\x01\x00\x01¡\x03\x039;Ì\x06²\x8dÄ¡3ÓÄ#\x86î60¶Û\x12ú"¸Ú\x071äéÿ'+Cá ¾M;¢\x02\x9a\x93,»#¹è#ãzÜ\x16ª\x99Ä\x04\x83À\x1cÑ\x16\x03Þ\x9czFÝ\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" HTTPStatus.BAD_REQUEST -
+2025-02-04 09:55:16,656 werkzeug INFO 54.38.100.153 - - [04/Feb/2025 09:55:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-04 11:09:42,635 werkzeug INFO 205.210.31.149 - - [04/Feb/2025 11:09:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-04 13:00:40,990 werkzeug INFO 104.248.113.226 - - [04/Feb/2025 13:00:40] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-04 13:00:41,143 werkzeug INFO 104.248.113.226 - - [04/Feb/2025 13:00:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-04 13:47:59,173 werkzeug INFO 184.105.247.254 - - [04/Feb/2025 13:47:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-04 13:48:14,476 werkzeug INFO 184.105.247.254 - - [04/Feb/2025 13:48:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-04 16:41:39,775 werkzeug INFO 139.99.35.39 - - [04/Feb/2025 16:41:39] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-04 16:48:17,386 werkzeug INFO 15.235.189.156 - - [04/Feb/2025 16:48:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-04 19:20:19,587 werkzeug ERROR 147.185.133.193 - - [04/Feb/2025 19:20:19] code 400, message Bad request version ('À\x13À')
+2025-02-04 19:20:19,589 werkzeug INFO 147.185.133.193 - - [04/Feb/2025 19:20:19] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ï\x0cÈ=\x85Ø\x19§½Ûÿ¾£ÍªCrÁÕ`Yçd\x10ö\x8a_cÙ5ØD é§ËâÆ¤=1\x00ê¶`y\x8b\x94| \x84¤M\x1a®øQJ\x12¸m@\x1f\x0cc\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+2025-02-04 19:20:19,840 werkzeug ERROR 147.185.133.193 - - [04/Feb/2025 19:20:19] code 400, message Bad request version ('À(À$À\x14À')
+2025-02-04 19:20:19,840 werkzeug INFO 147.185.133.193 - - [04/Feb/2025 19:20:19] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03%Êá\x87Q\x8aN#_c\x1cÍ\x84¨ÈPé\x9b9øY\x98Ì>«w~Òí\x99?\x97\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2025-02-04 19:21:26,527 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 19:21:26,655 werkzeug INFO  * Restarting with stat
+2025-02-04 19:21:27,039 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:21:27,040 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 19:31:35,948 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:31:36,006 werkzeug INFO  * Restarting with stat
+2025-02-04 19:31:36,303 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:31:36,304 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 19:31:38,318 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:31:38,373 werkzeug INFO  * Restarting with stat
+2025-02-04 19:31:38,674 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:31:38,675 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 19:32:41,888 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:32:41,947 werkzeug INFO  * Restarting with stat
+2025-02-04 19:32:42,252 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:32:42,253 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 19:32:53,295 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:32:53,349 werkzeug INFO  * Restarting with stat
+2025-02-04 19:32:53,650 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:32:53,651 werkzeug INFO  * Debugger PIN: 112-168-661
+2025-02-04 19:36:06,090 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 19:36:06,090 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 19:36:06,092 werkzeug INFO  * Restarting with stat
+2025-02-04 19:36:06,636 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:36:06,637 werkzeug INFO  * Debugger PIN: 154-981-585
+2025-02-04 19:38:33,014 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 19:38:33,014 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 19:38:33,015 werkzeug INFO  * Restarting with stat
+2025-02-04 19:38:33,525 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:38:33,526 werkzeug INFO  * Debugger PIN: 125-985-416
+2025-02-04 19:42:24,773 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 19:42:24,789 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 19:42:24,793 werkzeug INFO  * Restarting with stat
+2025-02-04 19:42:25,825 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:42:25,876 werkzeug INFO  * Debugger PIN: 110-148-798
+2025-02-04 19:42:42,977 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:42:43,060 werkzeug INFO  * Restarting with stat
+2025-02-04 19:42:43,556 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:42:43,557 werkzeug INFO  * Debugger PIN: 110-148-798
+2025-02-04 19:42:53,606 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:42:53,663 werkzeug INFO  * Restarting with stat
+2025-02-04 19:42:53,970 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:42:53,971 werkzeug INFO  * Debugger PIN: 110-148-798
+2025-02-04 19:43:56,399 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 19:43:56,400 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 19:43:56,401 werkzeug INFO  * Restarting with stat
+2025-02-04 19:43:57,197 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:43:57,207 werkzeug INFO  * Debugger PIN: 891-845-854
+2025-02-04 19:46:35,670 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 19:46:35,671 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 19:46:35,672 werkzeug INFO  * Restarting with stat
+2025-02-04 19:46:36,037 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:46:36,038 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:47:31,235 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:47:31,302 werkzeug INFO  * Restarting with stat
+2025-02-04 19:47:31,621 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:47:31,622 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:48:05,742 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:48:05,796 werkzeug INFO  * Restarting with stat
+2025-02-04 19:48:06,096 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:48:06,096 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:48:15,134 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:48:15,191 werkzeug INFO  * Restarting with stat
+2025-02-04 19:48:15,503 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:48:15,504 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:48:16,515 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:48:16,576 werkzeug INFO  * Restarting with stat
+2025-02-04 19:48:16,908 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:48:16,908 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:49:07,087 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:49:07,143 werkzeug INFO  * Restarting with stat
+2025-02-04 19:49:07,452 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:49:07,453 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:49:35,554 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:49:35,616 werkzeug INFO  * Restarting with stat
+2025-02-04 19:49:35,923 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:49:35,924 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:49:40,949 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:49:41,006 werkzeug INFO  * Restarting with stat
+2025-02-04 19:49:41,312 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:49:41,312 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:49:54,365 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:49:54,422 werkzeug INFO  * Restarting with stat
+2025-02-04 19:49:54,727 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:49:54,728 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:50:01,760 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:50:01,824 werkzeug INFO  * Restarting with stat
+2025-02-04 19:50:02,139 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:50:02,139 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:50:26,228 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:50:26,289 werkzeug INFO  * Restarting with stat
+2025-02-04 19:50:26,590 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:50:26,591 werkzeug INFO  * Debugger PIN: 106-614-185
+2025-02-04 19:51:20,241 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 19:51:20,250 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 19:51:20,252 werkzeug INFO  * Restarting with stat
+2025-02-04 19:51:21,042 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:51:21,044 werkzeug INFO  * Debugger PIN: 546-153-240
+2025-02-04 19:52:27,299 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:52:27,356 werkzeug INFO  * Restarting with stat
+2025-02-04 19:52:27,651 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:52:27,652 werkzeug INFO  * Debugger PIN: 546-153-240
+2025-02-04 19:52:31,674 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 19:52:31,737 werkzeug INFO  * Restarting with stat
+2025-02-04 19:52:32,056 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:52:32,057 werkzeug INFO  * Debugger PIN: 546-153-240
+2025-02-04 19:59:16,740 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+2025-02-04 19:59:16,741 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 19:59:16,742 werkzeug INFO  * Restarting with stat
+2025-02-04 19:59:17,518 werkzeug WARNING  * Debugger is active!
+2025-02-04 19:59:17,519 werkzeug INFO  * Debugger PIN: 105-007-652
+2025-02-04 20:00:11,730 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:00:11,795 werkzeug INFO  * Restarting with stat
+2025-02-04 20:00:12,122 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:00:12,123 werkzeug INFO  * Debugger PIN: 105-007-652
+2025-02-04 20:00:29,186 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 20:00:29,243 werkzeug INFO  * Restarting with stat
+2025-02-04 20:00:29,540 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:00:29,541 werkzeug INFO  * Debugger PIN: 105-007-652
+2025-02-04 20:01:01,705 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+2025-02-04 20:01:01,706 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:01:01,707 werkzeug INFO  * Restarting with stat
+2025-02-04 20:01:02,375 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:01:02,376 werkzeug INFO  * Debugger PIN: 611-715-925
+2025-02-04 20:01:55,579 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:01:55,632 werkzeug INFO  * Restarting with stat
+2025-02-04 20:01:55,934 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:01:55,935 werkzeug INFO  * Debugger PIN: 611-715-925
+2025-02-04 20:01:58,953 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:01:59,005 werkzeug INFO  * Restarting with stat
+2025-02-04 20:01:59,322 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:01:59,323 werkzeug INFO  * Debugger PIN: 611-715-925
+2025-02-04 20:02:54,520 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:02:54,577 werkzeug INFO  * Restarting with stat
+2025-02-04 20:02:54,873 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:02:54,873 werkzeug INFO  * Debugger PIN: 611-715-925
+2025-02-04 20:03:01,906 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 20:03:01,973 werkzeug INFO  * Restarting with stat
+2025-02-04 20:03:02,292 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:03:02,293 werkzeug INFO  * Debugger PIN: 611-715-925
+2025-02-04 20:03:21,364 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:03:21,420 werkzeug INFO  * Restarting with stat
+2025-02-04 20:03:21,720 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:03:21,721 werkzeug INFO  * Debugger PIN: 611-715-925
+2025-02-04 20:04:02,449 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 20:04:02,449 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:04:02,450 werkzeug INFO  * Restarting with stat
+2025-02-04 20:04:03,477 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:04:03,484 werkzeug INFO  * Debugger PIN: 159-687-481
+2025-02-04 20:05:27,821 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:05:27,877 werkzeug INFO  * Restarting with stat
+2025-02-04 20:05:28,175 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:05:28,175 werkzeug INFO  * Debugger PIN: 159-687-481
+2025-02-04 20:05:35,209 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:05:35,263 werkzeug INFO  * Restarting with stat
+2025-02-04 20:05:35,565 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:05:35,566 werkzeug INFO  * Debugger PIN: 159-687-481
+2025-02-04 20:06:30,665 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.8:5000
+2025-02-04 20:06:30,673 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:06:30,689 werkzeug INFO  * Restarting with stat
+2025-02-04 20:06:32,988 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:06:33,010 werkzeug INFO  * Debugger PIN: 436-693-030
+2025-02-04 20:07:14,055 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+2025-02-04 20:07:14,067 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:07:14,068 werkzeug INFO  * Restarting with stat
+2025-02-04 20:07:14,858 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:07:14,859 werkzeug INFO  * Debugger PIN: 302-440-352
+2025-02-04 20:08:28,576 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+2025-02-04 20:08:28,577 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:08:28,578 werkzeug INFO  * Restarting with stat
+2025-02-04 20:08:29,262 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:08:29,264 werkzeug INFO  * Debugger PIN: 408-148-852
+2025-02-04 20:09:24,366 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 20:09:24,366 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:09:24,368 werkzeug INFO  * Restarting with stat
+2025-02-04 20:09:25,209 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:09:25,221 werkzeug INFO  * Debugger PIN: 948-932-242
+2025-02-04 20:12:03,376 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 20:12:03,376 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:12:03,378 werkzeug INFO  * Restarting with stat
+2025-02-04 20:12:04,264 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:12:04,265 werkzeug INFO  * Debugger PIN: 394-763-963
+2025-02-04 20:21:27,279 root INFO Task ID: 7835e25f-56a2-4728-8af7-056d154b8593, c7661f23-36f1-4486-902a-e999655b043c
+2025-02-04 20:21:27,281 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 20:21:27] "POST /upload HTTP/1.1" 200 -
+2025-02-04 20:29:34,847 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 20:29:34,923 werkzeug INFO  * Restarting with stat
+2025-02-04 20:29:35,266 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:29:35,267 werkzeug INFO  * Debugger PIN: 394-763-963
+2025-02-04 20:29:38,286 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:29:38,352 werkzeug INFO  * Restarting with stat
+2025-02-04 20:29:38,673 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:29:38,674 werkzeug INFO  * Debugger PIN: 394-763-963
+2025-02-04 20:30:07,448 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 20:30:07,448 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:30:07,449 werkzeug INFO  * Restarting with stat
+2025-02-04 20:30:08,473 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:30:08,475 werkzeug INFO  * Debugger PIN: 793-842-726
+2025-02-04 20:31:31,799 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:31:31,857 werkzeug INFO  * Restarting with stat
+2025-02-04 20:31:32,157 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:31:32,157 werkzeug INFO  * Debugger PIN: 793-842-726
+2025-02-04 20:32:01,215 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 20:32:01,215 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:32:01,217 werkzeug INFO  * Restarting with stat
+2025-02-04 20:32:02,148 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:32:02,149 werkzeug INFO  * Debugger PIN: 580-801-941
+2025-02-04 20:34:07,623 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 20:34:07,681 werkzeug INFO  * Restarting with stat
+2025-02-04 20:34:07,987 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:34:07,988 werkzeug INFO  * Debugger PIN: 580-801-941
+2025-02-04 20:34:49,133 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:34:49,191 werkzeug INFO  * Restarting with stat
+2025-02-04 20:34:49,489 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:34:49,490 werkzeug INFO  * Debugger PIN: 580-801-941
+2025-02-04 20:35:44,675 werkzeug INFO  * Detected change in '/app/utils/extract_meta_data.py', reloading
+2025-02-04 20:35:44,731 werkzeug INFO  * Restarting with stat
+2025-02-04 20:35:45,033 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:35:45,034 werkzeug INFO  * Debugger PIN: 580-801-941
+2025-02-04 20:36:19,156 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:36:19,218 werkzeug INFO  * Restarting with stat
+2025-02-04 20:36:19,533 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:36:19,533 werkzeug INFO  * Debugger PIN: 580-801-941
+2025-02-04 20:36:41,619 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:36:41,675 werkzeug INFO  * Restarting with stat
+2025-02-04 20:36:41,990 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:36:41,991 werkzeug INFO  * Debugger PIN: 580-801-941
+2025-02-04 20:36:59,336 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 20:36:59,341 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:36:59,344 werkzeug INFO  * Restarting with stat
+2025-02-04 20:37:00,257 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:37:00,289 werkzeug INFO  * Debugger PIN: 103-188-676
+2025-02-04 20:39:57,784 root INFO Task ID: 44db6b36-8200-4ffe-809f-ee2996b8dd69, d1039d1a-831e-4a87-98b5-605c7fcd6965
+2025-02-04 20:39:57,785 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 20:39:57] "POST /upload HTTP/1.1" 200 -
+2025-02-04 20:42:35,257 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 20:42:35,257 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:42:35,259 werkzeug INFO  * Restarting with stat
+2025-02-04 20:42:36,078 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:42:36,079 werkzeug INFO  * Debugger PIN: 832-047-196
+2025-02-04 20:43:11,754 root INFO Task ID: e6cd2860-58a9-4db3-90e0-0cdc477cda76, 9860647b-9fef-49c1-8c0c-6eafca4e3a76
+2025-02-04 20:43:11,755 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 20:43:11] "POST /upload HTTP/1.1" 200 -
+2025-02-04 20:51:11,866 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 20:51:11,943 werkzeug INFO  * Restarting with stat
+2025-02-04 20:51:12,263 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:51:12,264 werkzeug INFO  * Debugger PIN: 832-047-196
+2025-02-04 20:51:16,286 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:51:16,354 werkzeug INFO  * Restarting with stat
+2025-02-04 20:51:16,665 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:51:16,665 werkzeug INFO  * Debugger PIN: 832-047-196
+2025-02-04 20:51:17,677 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:51:17,732 werkzeug INFO  * Restarting with stat
+2025-02-04 20:51:18,040 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:51:18,041 werkzeug INFO  * Debugger PIN: 832-047-196
+2025-02-04 20:51:23,065 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:51:23,127 werkzeug INFO  * Restarting with stat
+2025-02-04 20:51:23,433 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:51:23,434 werkzeug INFO  * Debugger PIN: 832-047-196
+2025-02-04 20:51:25,448 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:51:25,503 werkzeug INFO  * Restarting with stat
+2025-02-04 20:51:25,805 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:51:25,806 werkzeug INFO  * Debugger PIN: 832-047-196
+2025-02-04 20:51:29,827 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 20:51:29,893 werkzeug INFO  * Restarting with stat
+2025-02-04 20:51:30,222 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:51:30,223 werkzeug INFO  * Debugger PIN: 832-047-196
+2025-02-04 20:52:57,845 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 20:52:57,860 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 20:52:57,861 werkzeug INFO  * Restarting with stat
+2025-02-04 20:52:58,705 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:52:58,706 werkzeug INFO  * Debugger PIN: 111-132-161
+2025-02-04 20:55:06,414 root INFO Task ID: 5dc6b6ce-5b86-4dae-b7d6-df41764edf29, d3a74f6f-19bc-413d-bc60-189344ffb895
+2025-02-04 20:55:06,415 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 20:55:06] "POST /upload HTTP/1.1" 200 -
+2025-02-04 20:56:23,527 root INFO Task ID: 2cac4c68-f074-47c5-9b0c-2cac9b82804f, 576077e3-4140-4ae9-9e2e-c0802276e650
+2025-02-04 20:56:23,528 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 20:56:23] "POST /upload HTTP/1.1" 200 -
+2025-02-04 20:59:49,203 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 20:59:49,289 werkzeug INFO  * Restarting with stat
+2025-02-04 20:59:49,619 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:59:49,620 werkzeug INFO  * Debugger PIN: 111-132-161
+2025-02-04 20:59:53,641 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:59:53,699 werkzeug INFO  * Restarting with stat
+2025-02-04 20:59:54,003 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:59:54,003 werkzeug INFO  * Debugger PIN: 111-132-161
+2025-02-04 20:59:56,019 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 20:59:56,080 werkzeug INFO  * Restarting with stat
+2025-02-04 20:59:56,382 werkzeug WARNING  * Debugger is active!
+2025-02-04 20:59:56,383 werkzeug INFO  * Debugger PIN: 111-132-161
+2025-02-04 21:00:48,651 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 21:00:48,651 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 21:00:48,652 werkzeug INFO  * Restarting with stat
+2025-02-04 21:00:49,475 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:00:49,487 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:02:11,830 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:02:11,887 werkzeug INFO  * Restarting with stat
+2025-02-04 21:02:12,194 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:02:12,195 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:02:19,227 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 21:02:19,282 werkzeug INFO  * Restarting with stat
+2025-02-04 21:02:19,576 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:02:19,577 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:02:52,694 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 21:02:52,777 werkzeug INFO  * Restarting with stat
+2025-02-04 21:02:53,103 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:02:53,104 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:03:00,138 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:03:00,198 werkzeug INFO  * Restarting with stat
+2025-02-04 21:03:00,513 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:03:00,514 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:06:01,123 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:06:01,190 werkzeug INFO  * Restarting with stat
+2025-02-04 21:06:01,522 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:06:01,523 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:06:06,549 werkzeug INFO  * Detected change in '/app/publisher/kafka_producer.py', reloading
+2025-02-04 21:06:06,616 werkzeug INFO  * Restarting with stat
+2025-02-04 21:06:06,922 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:06:06,923 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:08:29,514 root INFO Task ID: 28c6f413-a44c-4299-bb53-0580fe155bac, 63ccbe1f-0d7d-45ea-b321-4c3f0b2b87f4
+2025-02-04 21:08:29,515 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 21:08:29] "POST /upload HTTP/1.1" 200 -
+2025-02-04 21:10:21,816 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 21:10:21,907 werkzeug INFO  * Restarting with stat
+2025-02-04 21:10:22,223 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:10:22,224 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:10:29,256 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 21:10:29,313 werkzeug INFO  * Restarting with stat
+2025-02-04 21:10:29,636 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:10:29,637 werkzeug INFO  * Debugger PIN: 520-474-502
+2025-02-04 21:12:50,211 root INFO Task ID: 8b8bcb7f-b26b-4303-b7ac-1513d3dbe7ff, 21ac28da-3248-4921-9b0f-1a57a1afd7a9
+2025-02-04 21:12:50,213 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 21:12:50] "POST /upload HTTP/1.1" 200 -
+2025-02-04 21:16:00,546 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 21:16:00,550 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 21:16:00,552 werkzeug INFO  * Restarting with stat
+2025-02-04 21:16:01,421 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:16:01,475 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:17:10,724 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:17:10,789 werkzeug INFO  * Restarting with stat
+2025-02-04 21:17:11,091 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:17:11,092 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:17:12,103 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:17:12,157 werkzeug INFO  * Restarting with stat
+2025-02-04 21:17:12,460 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:17:12,461 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:17:13,473 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:17:13,531 werkzeug INFO  * Restarting with stat
+2025-02-04 21:17:13,839 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:17:13,840 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:17:16,863 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:17:16,916 werkzeug INFO  * Restarting with stat
+2025-02-04 21:17:17,230 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:17:17,231 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:17:25,158 root INFO Task ID: e0ef3ad7-b392-462d-b12a-86b10dd91871, 7aa37b7d-23d0-427b-9b06-ca3a52140b88
+2025-02-04 21:17:25,160 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 21:17:25] "POST /upload HTTP/1.1" 200 -
+2025-02-04 21:17:35,302 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:17:35,380 werkzeug INFO  * Restarting with stat
+2025-02-04 21:17:35,684 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:17:35,685 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:18:38,905 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 21:18:38,958 werkzeug INFO  * Restarting with stat
+2025-02-04 21:18:39,261 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:18:39,262 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:19:06,233 root INFO Task ID: b94e7ec1-e912-464e-a5d6-f0b6d8654363, a719cc90-d71a-414c-8b62-608faf449272
+2025-02-04 21:19:06,235 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 21:19:06] "POST /upload HTTP/1.1" 200 -
+2025-02-04 21:23:25,242 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:23:25,318 werkzeug INFO  * Restarting with stat
+2025-02-04 21:23:25,618 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:23:25,619 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:23:26,631 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:23:26,684 werkzeug INFO  * Restarting with stat
+2025-02-04 21:23:26,987 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:23:26,988 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:23:29,004 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:23:29,066 werkzeug INFO  * Restarting with stat
+2025-02-04 21:23:29,380 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:23:29,381 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:23:32,399 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:23:32,450 werkzeug INFO  * Restarting with stat
+2025-02-04 21:23:32,759 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:23:32,760 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:23:33,771 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:23:33,822 werkzeug INFO  * Restarting with stat
+2025-02-04 21:23:34,122 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:23:34,123 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:24:07,238 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:24:07,311 werkzeug INFO  * Restarting with stat
+2025-02-04 21:24:07,624 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:24:07,625 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:24:20,677 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:24:20,739 werkzeug INFO  * Restarting with stat
+2025-02-04 21:24:21,049 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:24:21,050 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:24:23,069 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:24:23,134 werkzeug INFO  * Restarting with stat
+2025-02-04 21:24:23,446 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:24:23,447 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:24:24,459 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:24:24,517 werkzeug INFO  * Restarting with stat
+2025-02-04 21:24:24,827 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:24:24,828 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:24:25,841 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:24:25,898 werkzeug INFO  * Restarting with stat
+2025-02-04 21:24:26,200 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:24:26,201 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:24:42,263 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:24:42,318 werkzeug INFO  * Restarting with stat
+2025-02-04 21:24:42,618 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:24:42,619 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:24:53,663 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:24:53,721 werkzeug INFO  * Restarting with stat
+2025-02-04 21:24:54,036 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:24:54,037 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:11,103 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:25:11,165 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:11,463 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:11,463 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:17,494 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:25:17,560 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:17,870 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:17,870 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:22,896 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:25:22,947 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:23,250 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:23,251 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:24,263 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:25:24,317 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:24,630 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:24,631 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:26,647 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:25:26,702 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:27,011 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:27,012 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:28,024 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:25:28,082 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:28,385 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:28,386 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:36,420 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 21:25:36,477 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:36,779 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:36,780 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:38,795 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 21:25:38,851 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:39,151 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:39,152 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:52,204 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 21:25:52,258 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:52,556 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:52,557 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:25:56,578 werkzeug INFO  * Detected change in '/app/tasks.py', reloading
+2025-02-04 21:25:56,632 werkzeug INFO  * Restarting with stat
+2025-02-04 21:25:56,932 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:25:56,933 werkzeug INFO  * Debugger PIN: 416-174-517
+2025-02-04 21:26:28,979 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 21:26:28,979 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 21:26:28,980 werkzeug INFO  * Restarting with stat
+2025-02-04 21:26:30,014 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:26:30,016 werkzeug INFO  * Debugger PIN: 763-015-216
+2025-02-04 21:28:00,359 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:28:00,412 werkzeug INFO  * Restarting with stat
+2025-02-04 21:28:00,710 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:28:00,711 werkzeug INFO  * Debugger PIN: 763-015-216
+2025-02-04 21:28:24,650 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 21:28:24,650 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 21:28:24,651 werkzeug INFO  * Restarting with stat
+2025-02-04 21:28:25,373 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:28:25,385 werkzeug INFO  * Debugger PIN: 415-957-065
+2025-02-04 21:29:53,733 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:29:53,790 werkzeug INFO  * Restarting with stat
+2025-02-04 21:29:54,085 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:29:54,086 werkzeug INFO  * Debugger PIN: 415-957-065
+2025-02-04 21:29:58,108 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:29:58,162 werkzeug INFO  * Restarting with stat
+2025-02-04 21:29:58,459 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:29:58,460 werkzeug INFO  * Debugger PIN: 415-957-065
+2025-02-04 21:29:59,472 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:29:59,530 werkzeug INFO  * Restarting with stat
+2025-02-04 21:29:59,831 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:29:59,832 werkzeug INFO  * Debugger PIN: 415-957-065
+2025-02-04 21:30:00,844 werkzeug INFO  * Detected change in '/app/consumer/kafka_consumer.py', reloading
+2025-02-04 21:30:00,910 werkzeug INFO  * Restarting with stat
+2025-02-04 21:30:01,250 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:30:01,251 werkzeug INFO  * Debugger PIN: 415-957-065
+2025-02-04 21:30:18,053 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 21:30:18,053 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 21:30:18,055 werkzeug INFO  * Restarting with stat
+2025-02-04 21:30:18,844 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:30:18,846 werkzeug INFO  * Debugger PIN: 276-916-933
+2025-02-04 21:30:55,005 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:30:55,058 werkzeug INFO  * Restarting with stat
+2025-02-04 21:30:55,355 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:30:55,356 werkzeug INFO  * Debugger PIN: 276-916-933
+2025-02-04 21:30:56,367 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:30:56,416 werkzeug INFO  * Restarting with stat
+2025-02-04 21:30:56,737 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:30:56,738 werkzeug INFO  * Debugger PIN: 276-916-933
+2025-02-04 21:31:21,082 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+2025-02-04 21:31:21,082 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-02-04 21:31:21,084 werkzeug INFO  * Restarting with stat
+2025-02-04 21:31:21,895 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:31:21,896 werkzeug INFO  * Debugger PIN: 130-957-986
+2025-02-04 21:34:43,452 root INFO Task ID: 5f4f6235-3eba-4190-8ed6-47696347baf1, ff03bb74-54b2-4980-88c1-3f23a5b54c1c
+2025-02-04 21:34:43,453 werkzeug INFO 172.18.0.1 - - [04/Feb/2025 21:34:43] "POST /upload HTTP/1.1" 200 -
+2025-02-04 21:35:12,682 werkzeug INFO  * Detected change in '/app/consumer/db_handler.py', reloading
+2025-02-04 21:35:12,763 werkzeug INFO  * Restarting with stat
+2025-02-04 21:35:13,066 werkzeug WARNING  * Debugger is active!
+2025-02-04 21:35:13,067 werkzeug INFO  * Debugger PIN: 130-957-986
